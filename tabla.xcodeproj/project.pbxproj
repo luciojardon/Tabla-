@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D3E0AA0231CAE97003A3219 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3E0A9F231CAE97003A3219 /* Movie.swift */; };
+		5D9DC4092318CBB100971A12 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9DC4082318CBB100971A12 /* CustomCell.swift */; };
+		5D9DC40B2318CEC700971A12 /* Lucio.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5D9DC40A2318CEC700971A12 /* Lucio.jpg */; };
+		5D9DC40D2318D71300971A12 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9DC40C2318D71300971A12 /* Contact.swift */; };
 		5DE848E723179A870026676E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE848E623179A870026676E /* AppDelegate.swift */; };
 		5DE848E923179A870026676E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE848E823179A870026676E /* ViewController.swift */; };
 		5DE848EC23179A870026676E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DE848EA23179A870026676E /* Main.storyboard */; };
@@ -34,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5D3E0A9F231CAE97003A3219 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		5D9DC4082318CBB100971A12 /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		5D9DC40A2318CEC700971A12 /* Lucio.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Lucio.jpg; sourceTree = "<group>"; };
+		5D9DC40C2318D71300971A12 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
 		5DE848E323179A870026676E /* tabla.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tabla.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DE848E623179A870026676E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5DE848E823179A870026676E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -97,12 +105,16 @@
 		5DE848E523179A870026676E /* tabla */ = {
 			isa = PBXGroup;
 			children = (
+				5D9DC40A2318CEC700971A12 /* Lucio.jpg */,
 				5DE848E623179A870026676E /* AppDelegate.swift */,
 				5DE848E823179A870026676E /* ViewController.swift */,
 				5DE848EA23179A870026676E /* Main.storyboard */,
 				5DE848ED23179A890026676E /* Assets.xcassets */,
 				5DE848EF23179A890026676E /* LaunchScreen.storyboard */,
 				5DE848F223179A890026676E /* Info.plist */,
+				5D9DC4082318CBB100971A12 /* CustomCell.swift */,
+				5D9DC40C2318D71300971A12 /* Contact.swift */,
+				5D3E0A9F231CAE97003A3219 /* Movie.swift */,
 			);
 			path = tabla;
 			sourceTree = "<group>";
@@ -229,6 +241,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D9DC40B2318CEC700971A12 /* Lucio.jpg in Resources */,
 				5DE848F123179A890026676E /* LaunchScreen.storyboard in Resources */,
 				5DE848EE23179A890026676E /* Assets.xcassets in Resources */,
 				5DE848EC23179A870026676E /* Main.storyboard in Resources */,
@@ -256,8 +269,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D9DC40D2318D71300971A12 /* Contact.swift in Sources */,
 				5DE848E923179A870026676E /* ViewController.swift in Sources */,
+				5D9DC4092318CBB100971A12 /* CustomCell.swift in Sources */,
 				5DE848E723179A870026676E /* AppDelegate.swift in Sources */,
+				5D3E0AA0231CAE97003A3219 /* Movie.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
